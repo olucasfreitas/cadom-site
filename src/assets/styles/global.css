@@ -15,7 +15,7 @@ body,
 }
 
 body {
-  background: darkblue;
+  background: #033059;
 }
 
 #root {
@@ -28,7 +28,7 @@ body,
 input,
 button,
 textarea {
-  font: 500 1.6rem Poppins;
+  font: 500 1.6rem Catamaran;
 }
 
 .container {
