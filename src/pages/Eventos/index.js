@@ -4,7 +4,6 @@ import './styles.css';
 export default function Eventos() {
   return (
     <div>
-      
     </div>
   )
 }
