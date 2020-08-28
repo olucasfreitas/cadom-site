@@ -3,11 +3,25 @@ import FaleConosco from '../../components/Fale-conosco/index.js';
 import Footer from '../../components/Footer/index';
 import Article from '../../components/Article/index';
 import './styles.css';
+import { Navbar, Nav } from 'react-bootstrap';
+
 
 export default function Home() {
 
   return (
-
+    <>
+    <Navbar expand="lg">
+      <Navbar.Brand id="title-nav" href="#home">Home</Navbar.Brand>
+      <Navbar.Toggle id="teste" aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link id="title-nav" href="#link">FAQ</Nav.Link>
+          <Nav.Link id="title-nav" href="#link">Gestão</Nav.Link>
+          <Nav.Link id="title-nav" href="#link">Eventos</Nav.Link>
+          <Nav.Link id="title-nav" href="#link">Publicações</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
     <div id="container">
       <h1> Centro acadêmico de Direito Otávio Mendonça </h1>
       <p>
@@ -50,8 +64,9 @@ export default function Home() {
         necessária, porque juntos somos mais fortes.">
       </Article>
 
+      <h1> Qual nosso papel perante os estudantes? </h1>
       <Article
-        title="Qual nosso papel perante os estudantes?"
+        title=""
         description="O Centro Acadêmico de Direito Otávio e Mendonça (CADOM) é a entidade
         representativa dos alunos a qual busca representá-los tanto dentro quanto fora
         universidade, especialmente frente à Coordenação, à Reitoria, aos outros Centros
@@ -73,5 +88,6 @@ export default function Home() {
       <FaleConosco />
       <Footer />
     </div>
+  </>
   )
 }
