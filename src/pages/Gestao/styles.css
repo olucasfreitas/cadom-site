@@ -28,27 +28,5 @@
     line-height: 2.5rem;
     font-size: medium;
 }
-#textContainer-gestao{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    flex-direction: column;
-    background-color: white;
-    margin-top: 3.0rem;
-    padding: 2.0rem;
-    border: 0.4rem solid;
-    border-radius: 1.0rem;
-    border-color: #BE814B;
 
-}
-#textContainer-title{
-    color: #000000;
-    font-size: x-large;
-}
-#textContainer-text{
-    color: #000000;
-    line-height: 2.5rem;
-    text-align: justify;
-    font-size: medium;
-}
 
