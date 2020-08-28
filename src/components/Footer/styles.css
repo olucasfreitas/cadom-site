@@ -1,4 +1,4 @@
-#footer-gestao{
+.footer-gestao{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     border-top-left-radius: 0.2rem;
     border-top-right-radius: 0.2rem;
 }
-#textFooter-gestao{
+.textFooter-gestao{
     color: #000000;
     font-size: small;
     text-align: center;

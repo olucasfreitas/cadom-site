@@ -1,19 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import FaleConosco from '../../components/Fale-conosco/index.js';
 import Footer from '../../components/Footer/index';
 import Article from '../../components/Article/index';
+import NavBar from '../../components/NavBar/index';
 import './styles.css';
 
 export default function Home() {
 
   return (
-
-    <div id="container-gestao" className="Gestao">
-
-      <div id="body-gestao">
-        <h1 id="title-page-gestao"> Gestão </h1>
-        <div id="gestao-text-container">
-          <p id="gestao-text">
+  <>
+    <NavBar 
+    titlePageNav="Gestao" 
+    NextPage1="Home" 
+    NextPage2="Eventos"
+    NextPage3="FAQ"
+    NextPage4="Publicações"/>
+    <div className="container-gestao">
+      <div className="body-gestao">
+        <h1 className="title-page-gestao"> Gestão </h1>
+        <div className="gestao-text-container">
+          <p className="gestao-text">
             A Gestão do CADOM tem como um dos seus princípios fundamentais, incentivar a participação em eventos,
             estimular a autonomia e a responsabilidade dos alunos com a faculdade, e lutar em todos os âmbitos pela qualidade de graduação dos discentes.
             Compactuado com a transparência e seriedade de gerir uma instituição que representa o corpo discente, o CADOM por meio deste site vem demonstrar
@@ -22,30 +28,31 @@ export default function Home() {
                 </p>
         </div>
 
-        <Article 
-        title="Atas"
-        description=" Todos os registros ou resenhas dos fatos ou ocorrências verificados, e
+        <Article
+          title="Atas"
+          description=" Todos os registros ou resenhas dos fatos ou ocorrências verificados, e
         resoluções tomadas numa assembleia ou numa reunião de corpo
-        deliberativo do CADOM." 
+        deliberativo do CADOM."
         ></Article>
 
-        <Article 
-        title="Estatuto"
-        description="Objetivando estabelecer regras de organização e funcionamento do Centro
+        <Article
+          title="Estatuto"
+          description="Objetivando estabelecer regras de organização e funcionamento do Centro
         Acadêmico, construímos o Estatuto para regular as ações ocorridas
-        referente as relações entre o CADOM, Alunos e Cesupa." 
+        referente as relações entre o CADOM, Alunos e Cesupa."
         ></Article>
 
-        <Article 
-        title="Editais"
-        description="Tudo sobre nossos Projetos, Eventos e Colaborações, informando o amplo
-        corpo estudantil sobre como fazer parte da nossa atuação diária" 
+        <Article
+          title="Editais"
+          description="Tudo sobre nossos Projetos, Eventos e Colaborações, informando o amplo
+        corpo estudantil sobre como fazer parte da nossa atuação diária"
         ></Article>
 
         <FaleConosco />
 
       </div>
-      <Footer/>
+      <Footer />
     </div>
+    </>
   )
 }

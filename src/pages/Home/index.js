@@ -2,27 +2,23 @@ import React from 'react';
 import FaleConosco from '../../components/Fale-conosco/index.js';
 import Footer from '../../components/Footer/index';
 import Article from '../../components/Article/index';
+import NavBar from '../../components/NavBar/index';
 import './styles.css';
-import { Navbar, Nav } from 'react-bootstrap';
+
 
 
 export default function Home() {
 
   return (
     <>
-    <Navbar expand="lg">
-      <Navbar.Brand id="title-nav" href="#home">Home</Navbar.Brand>
-      <Navbar.Toggle id="teste" aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link id="title-nav" href="#link">FAQ</Nav.Link>
-          <Nav.Link id="title-nav" href="#link">Gestão</Nav.Link>
-          <Nav.Link id="title-nav" href="#link">Eventos</Nav.Link>
-          <Nav.Link id="title-nav" href="#link">Publicações</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-    <div id="container">
+    <NavBar 
+    titlePageNav="Home" 
+    NextPage1="Eventos" 
+    NextPage2="FAQ"
+    NextPage3="Gestao"
+    NextPage4="Publicações"/>
+
+    <div className="container">
       <h1> Centro acadêmico de Direito Otávio Mendonça </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit cursus in arcu ultrices ut vulputate risus. Orci a commodo ornare diam ac eu, tristique nisl. Velit tempus nulla vitae in tristique. Augue dui proin massa senectus elementum diam.

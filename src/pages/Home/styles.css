@@ -1,4 +1,4 @@
-#container{
+.container{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -15,16 +15,4 @@ h1{
   text-align: center;
   margin-top: 2rem;
   color: white;
-}
-
-#title-nav{
-  margin-top: 1rem;
-  color: white;
-  font-size: 3rem;
-  margin-right: 3rem;
-}
-
-#teste{
-  width: 10vw;
-  background-color: white;
 }
