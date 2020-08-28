@@ -1,0 +1,56 @@
+#faleConosco-gestao{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2.0rem;
+    padding: 3.0rem 6rem;
+    border: 0.4rem solid;
+    border-radius: 1.0rem;
+    border-color: #BE814B;
+}
+#inputPadrao-gestao{
+    margin-top: 1.0rem;
+    padding: 0.5rem;
+    width: 55vw;
+    font-size: medium;
+    border: 0.4rem solid;
+    border-radius: 0.5rem;
+    border-color: #BE814B;
+}
+#inputSelect-gestao{
+    margin-top: 1.0rem;
+    padding: 0.5rem;
+    font-size: medium;
+    font-family: Catamaran;
+    height: 5.7vh;
+    width: 55vw;
+    border: 0.4rem solid;
+    border-radius: 0.5rem;
+    border-color: #BE814B;
+}
+#inputMensagem-gestao{
+    display: flex;
+    margin-top: 1.0rem;
+    padding: 0.5rem;
+    height: 20vh;
+    width: 55vw;
+    border: 0.4rem solid;
+    border-radius: 0.5rem;
+    border-color: #BE814B;
+}
+#textContainer-title{
+    font-size: 20rem;
+    font-weight: bolder;
+}
+
+button{
+    background-color: #BE814B;
+    color: white;
+    width: 50vw;
+    height: 6vh;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
