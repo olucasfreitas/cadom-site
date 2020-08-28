@@ -1,0 +1,42 @@
+#faleConosco-gestao{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 5.0rem;
+    padding: 3.0rem;
+    border: 0.4rem solid;
+    border-radius: 1.0rem;
+    border-color: #BE814B;
+}
+#inputPadrao-gestao{
+    margin-top: 1.0rem;
+    padding: 0.5rem;
+    width: 55vw;
+    font-size: medium;
+    border: 0.4rem solid;
+    border-radius: 0.5rem;
+    border-color: #BE814B;
+}
+#inputSelect-gestao{
+    margin-top: 1.0rem;
+    padding: 0.5rem;
+    font-size: medium;
+    font-family: Catamaran;
+    height: 5.7vh;
+    width: 55vw;
+    border: 0.4rem solid;
+    border-radius: 0.5rem;
+    border-color: #BE814B;
+}
+#inputMensagem-gestao{
+    display: flex;
+    margin-top: 1.0rem;
+    padding: 0.5rem;
+    height: 20vh;
+    width: 55vw;
+    border: 0.4rem solid;
+    border-radius: 0.5rem;
+    border-color: #BE814B;
+}
