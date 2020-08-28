@@ -1,18 +1,41 @@
-.container{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  padding: 2rem;
-}
-p{
-  color: white;
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 2rem;
 }
 
-h1{
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 2rem;
-  color: white;
+p {
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+@media( min-width: 700px) {
+    .textContainer-gestao {
+        width: 90vw;
+        height: 90vh;
+    }
+    .textContainer-title {
+        font-size: 4rem;
+    }
+    .textContainer-text {
+        font-size: 2.5rem;
+    }
+    .container h1{ 
+        font-size: 5rem;
+    }
+    .container p{
+        font-size: 2.5rem;
+    }
+    .articles{
+       
+    }
 }

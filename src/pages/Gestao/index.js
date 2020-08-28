@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import FaleConosco from '../../components/Fale-conosco/index.js';
 import Footer from '../../components/Footer/index';
 import Article from '../../components/Article/index';

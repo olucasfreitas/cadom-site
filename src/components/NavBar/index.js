@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function NavBar(props){
     return(
-        <Navbar expand="lg">
+        <Navbar id="navbar" expand="lg">
         <Navbar.Brand id="title-nav" href={props.titlePageNav}>{props.titlePageNav}</Navbar.Brand>
         <Navbar.Toggle id="teste" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
