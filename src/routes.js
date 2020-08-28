@@ -12,10 +12,10 @@ function Routes() {
   return (
     <BrowserRouter>
       <Route path="/Home" exact component={Home} />
-      <Route path="/Events" component={Eventos} />
+      <Route path="/Eventos" component={Eventos} />
       <Route path="/FAQ" component={FAQ} />
       <Route path="/Gestao" component={Gestao} />
-      <Route path="/Publicacoes" component={Publicacoes} />
+      <Route path="/Publicações" component={Publicacoes} />
     </BrowserRouter>
   );
 }
