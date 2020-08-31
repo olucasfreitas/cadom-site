@@ -1,33 +1,25 @@
 .container-gestao{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
     height: 100vh;
     padding: 2.0rem;
 }
-.body-gestao{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-}
 .title-page-gestao{
     color: #FFFFFF;
     font-size: xx-large;
+    font-weight: bold;
 }
 .gestao-text-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
+    text-align: center;
     margin-top: 1.0rem;
 }
 .gestao-text{
     color: white;
     line-height: 2.5rem;
     font-size: medium;
+    text-align: center;
 }
+
 
 

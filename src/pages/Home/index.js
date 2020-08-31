@@ -18,7 +18,7 @@ export default function Home() {
     NextPage3="Gestao"
     NextPage4="Publicações"/>
 
-    <div className="container">
+    <div id="container" className="container">
       <h1> Centro acadêmico de Direito Otávio Mendonça </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit cursus in arcu ultrices ut vulputate risus. Orci a commodo ornare diam ac eu, tristique nisl. Velit tempus nulla vitae in tristique. Augue dui proin massa senectus elementum diam.
