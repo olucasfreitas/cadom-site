@@ -1,0 +1,28 @@
+.conteiner-duvida{
+  height: 5vh;
+  align-items: center;
+}
+#container-publi{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding:0.5rem;
+}
+#title-page-publi{
+  color: #FFFFFF;
+  font-size: xx-large;
+}
+#publi-text-container{
+  display: flex;
+  text-align: justify;
+  margin-top: 1.0rem;
+  align-items: center;
+  justify-content: center;
+}
+.publi-text{
+  color: white;
+  line-height: 2.5rem;
+  font-size: medium;
+  
+}
