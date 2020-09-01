@@ -1,4 +1,4 @@
-#textContainer-gestao{
+.textContainer-gestao{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -11,11 +11,11 @@
     border-color: #BE814B;
 
 }
-#textContainer-title{
+.textContainer-title{
     color: #000000;
     font-size: x-large;
 }
-#textContainer-text{
+.textContainer-text{
     color: #000000;
     line-height: 2.5rem;
     text-align: justify;

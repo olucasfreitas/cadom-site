@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from '../../components/NavBar/index';
 import './styles.css';
 import Footer from '../../components/Footer/index';
 import Article from '../../components/Article/index';
@@ -7,6 +8,17 @@ import FaleConosco from '../../components/Fale-conosco/index.js';
 
 export default function Publicacoes() {
   return (
+
+    
+
+    <>
+    <NavBar 
+    titlePageNav="Publicações" 
+    NextPage1="Home" 
+    NextPage2="Eventos"
+    NextPage3="FAQ"
+    NextPage4="Gestao"/>
+    <div>
     <div id="container-Publi" className="Publi">
       <h1 id="title-page-publi"> Publicações Académicas </h1>
         <div id="publi-text-container">
@@ -50,6 +62,10 @@ export default function Publicacoes() {
 
         <FaleConosco />
       <Footer/>
+      
+ 
     </div>
+    </div>
+    </>
   )
 }

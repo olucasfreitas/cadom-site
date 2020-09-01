@@ -1,0 +1,24 @@
+#container-faq{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding:0.5rem;
+}
+#title-page-faq{
+  color: #FFFFFF;
+  font-size: xx-large;
+}
+#faq-text-container{
+  display: flex;
+  text-align: justify;
+  margin-top: 1.0rem;
+  align-items: center;
+  justify-content: center;
+}
+.faq-text{
+  color: white;
+  line-height: 2.5rem;
+  font-size: medium;
+  
+}

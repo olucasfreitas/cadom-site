@@ -11,11 +11,11 @@ import Publicacoes from "./pages/Publicacoes";
 function Routes() {
   return (
     <BrowserRouter>
-      <Route path="/" exact component={Home} />
-      <Route path="/events" component={Eventos} />
-      <Route path="/faq" component={FAQ} />
-      <Route path="/gestao" component={Gestao} />
-      <Route path="/publicacoes" component={Publicacoes} />
+      <Route path="/Home" exact component={Home} />
+      <Route path="/Eventos" component={Eventos} />
+      <Route path="/FAQ" component={FAQ} />
+      <Route path="/Gestao" component={Gestao} />
+      <Route path="/Publicações" component={Publicacoes} />
     </BrowserRouter>
   );
 }
