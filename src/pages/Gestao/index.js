@@ -30,7 +30,7 @@ export default function Home() {
         </p>
 
         <ArticleResponsive
-          title1="Ata"
+          title1="Ata/Balancetes"
           description1="Todos os registros ou resenhas dos fatos ou ocorrências verificados, e resoluções tomadas numa assembleia ou numa reunião de corpo deliberativo do CADOM."
 
           title2="Estatuto"
