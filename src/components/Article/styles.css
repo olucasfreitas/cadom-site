@@ -21,3 +21,26 @@
     text-align: justify;
     font-size: medium;
 }
+
+@media (min-width: 1100px) {
+    #textContainer-gestao{
+        display: flex;
+        padding: 3.0rem;
+        padding-top: 3.0rem;
+        padding-bottom: 3.0rem;
+        height: 45vh;
+        width: 20vw;
+    }
+    #textContainer-title{
+        color: #000000;
+        padding: 2.0rem;
+        padding-bottom: 2.8rem;
+        font-size: xx-large;
+    }
+    #textContainer-text{
+        color: #000000;
+        line-height: 2.5rem;
+        text-align: center;
+        font-size: x-medium;
+    }
+}

@@ -3,11 +3,11 @@ import './styles.css';
 
 function Article(props) {
     return (
-        <div className="textContainer-gestao">
-            <h2 className="textContainer-title">
+        <div id="textContainer-gestao" className="textContainer-gestao">
+            <h2 id="textContainer-title" className="textContainer-title">
                 {props.title}
             </h2>
-            <p className="textContainer-text">
+            <p id="textContainer-text" className="textContainer-text">
                 {props.description}
             </p>
         </div>
