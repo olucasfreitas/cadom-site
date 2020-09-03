@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100vh;
     background-color: white;
     align-items: center;
     margin-top: 2.0rem;
@@ -12,7 +12,7 @@
 }
 .textFooter-gestao{
     color: #000000;
-    font-size: small;
+    font-size: 1.4rem;
     text-align: center;
     padding: 1.7rem;
 }

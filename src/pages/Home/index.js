@@ -60,9 +60,8 @@ export default function Home() {
         necessária, porque juntos somos mais fortes.">
       </Article>
 
-      <h1> Qual nosso papel perante os estudantes? </h1>
       <Article
-        title=""
+        title="Qual nosso papel perante os estudantes?"
         description="O Centro Acadêmico de Direito Otávio e Mendonça (CADOM) é a entidade
         representativa dos alunos a qual busca representá-los tanto dentro quanto fora
         universidade, especialmente frente à Coordenação, à Reitoria, aos outros Centros
