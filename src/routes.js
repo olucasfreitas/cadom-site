@@ -12,6 +12,7 @@ function Routes() {
   return (
     <BrowserRouter>
       <Route path="/Home" exact component={Home} />
+      <Route path="/" exact component={Home} />
       <Route path="/Eventos" component={Eventos} />
       <Route path="/FAQ" component={FAQ} />
       <Route path="/Gestao" component={Gestao} />
