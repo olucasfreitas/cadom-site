@@ -1,18 +1,27 @@
-.container{
+.container-eventos{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    padding: 2rem;
-  }
-  p{
-    color: white;
-  }
-  
-  h1{
-    font-size: 3rem;
+    padding: 2.0rem;
+}
+.title-page-eventos{
+    color: #FFFFFF;
+    font-size: xx-large;
     font-weight: bold;
+}
+.eventos-text-container{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.0rem;
+}
+.eventos-text{
     color: white;
+    line-height: 2.5rem;
+    font-size: medium;
+    text-align: center;
+}
+
+@media screen and (min-width: 1100px) {
+   
   }
+

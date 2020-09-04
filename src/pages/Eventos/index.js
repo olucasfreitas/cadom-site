@@ -15,25 +15,29 @@ export default function Eventos() {
     NextPage2="FAQ"
     NextPage3="Gestao"
     NextPage4="Publicações"/>
-    <div id="container" className="container">
-        <h1 >Eventos</h1>
-        <p>Diversos eventos são propostos pelo CADOM semanalmente, promovendo
-        palestras, apresentações, atividades extracurriculares de ensino e pesquisa, e
-        extensão universitária sobre múltiplas áreas do direito.</p>
+    <div id ="container-eventos" className="container-eventos">
+      <div className="body-eventos">
+        <h1 className="title-page-eventos">Eventos</h1>
+        <div id="eventos-text-container" className="eventos-text-container">  
+          <p>Diversos eventos são propostos pelo CADOM semanalmente, promovendo
+          palestras, apresentações, atividades extracurriculares de ensino e pesquisa, e
+          extensão universitária sobre múltiplas áreas do direito.</p>
+        </div>
+        
         <Article
         title="FOTOS"
         description="Registro dos eventos, apresentações e palestras proporcionadas somente
-        pelo CADOM ou com parcerias."
-        ></Article>  
+        pelo CADOM ou com parcerias."></Article>  
+        
         <Article
         title="EVENTOS REALIZADOS"
         description="Todas as informações sobre os atuais e futuros eventos que teremos na
-        instituição."
-        ></Article> 
+        instituição."></Article>
+         
         <FaleConosco /> 
-        <Footer />
       </div>
-    
+      <Footer />
+    </div>
     </>
   )
 }
