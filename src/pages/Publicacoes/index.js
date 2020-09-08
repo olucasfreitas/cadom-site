@@ -18,54 +18,53 @@ export default function Publicacoes() {
     NextPage2="Eventos"
     NextPage3="FAQ"
     NextPage4="Gestao"/>
-    <div>
-    <div id="container-Publi" className="Publi">
-      <h1 id="title-page-publi"> Publicações Académicas </h1>
-        <div id="publi-text-container">
-          <p id="publi-text">
-          Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim
-          Lorim ypsolomm Lorim Lorim ypsolomm LorimLorim ypsolomm Lorim Lorim ypsolomm Lorim
-           
-         </p>
-        </div>
+    
+    <div className="container-publi">
+      <h1 className="title-page-publi"> Publicações Academicas </h1>
+      <p className="publi-text">
+          Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem 
+          Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor  
+        </p>
 
-        <Article 
-        title="Publicações 1"
-        description=" Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim
-        Lorim ypsolomm Lorim Lorim ypsolomm LorimLorim ypsolomm Lorim Lorim ypsolomm Lorim" 
-        ></Article>
+      <h1  className= "title-text" > Publicações 1 </h1>
+      <div className="container-pbs">
+       <p>Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem 
+          Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor
+       </p>
+       </div>
 
-        <Article 
-        title="Publicações 2"
-        description=" Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim
-        Lorim ypsolomm Lorim Lorim ypsolomm LorimLorim ypsolomm Lorim Lorim ypsolomm Lorim" 
-        ></Article>
 
-        <Article 
-        title="Publicações 3"
-        description=" Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim
-        Lorim ypsolomm Lorim Lorim ypsolomm LorimLorim ypsolomm Lorim Lorim ypsolomm Lorim" 
-        ></Article>
+       <h1  className= "title-text" > Publicações 2 </h1>
+       <div className="container-pbs">
+       <p>Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem 
+          Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor
+       </p>
+       </div>
 
-        <Article 
-        title="Publicações 4"
-        description=" Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim Lorim ypsolomm Lorim
-        Lorim ypsolomm Lorim Lorim ypsolomm LorimLorim ypsolomm Lorim Lorim ypsolomm Lorim" 
-        ></Article>
 
-        <Article 
-        title="Para ver outros textos dos nossos alunos acesse :"
-        description=" LINK " 
-        ></Article>
+       <h1 className= "title-text"> Publicações 3 </h1>
+       <div className="container-pbs"> 
+       <p>Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem 
+          Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor
+       </p>
+       </div> 
 
-       
+       <h1 className= "tile-text-link"> Para ver mais textos de nossos alunos, acesse o link</h1>
+       <div className="container-pbs-link"> 
+       <p> 
+         text Link
+       </p>
+       </div> 
 
-        <FaleConosco />
-      <Footer/>
+       <FaleConosco />
+       <Footer />
+
       
- 
     </div>
-    </div>
+
+
+
+
     </>
   )
 }
