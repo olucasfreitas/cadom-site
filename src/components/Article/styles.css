@@ -5,7 +5,7 @@
     flex-direction: column;
     background-color: white;
     margin-top: 3.0rem;
-    padding: 2.0rem;
+    padding: 4.0rem;
     border: 0.4rem solid;
     border-radius: 1.0rem;
     border-color: #BE814B;
@@ -13,6 +13,7 @@
 }
 .textContainer-title{
     color: #000000;
+
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
@@ -20,6 +21,7 @@
 .textContainer-text{
     color: #000000;
     line-height: 2.5rem;
+    margin-top: 2.0rem;
     text-align: center;
     font-size: large;
 }
@@ -39,8 +41,7 @@
         font-size: xx-large;
     }
     #textContainer-text{
-        color: #000000;
-        line-height: 2.5rem;
+        margin-top: 0rem;
         text-align: center;
         font-size: x-medium;
     }

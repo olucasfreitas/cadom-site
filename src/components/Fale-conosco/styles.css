@@ -5,7 +5,7 @@
     flex-direction: column;
     background-color: white;
     width: 80vw;
-    margin-top: 2.0rem;
+    margin-top: 4rem;
     padding: 2.0rem 5rem;
     border: 0.4rem solid;
     border-radius: 1.0rem;
@@ -45,7 +45,6 @@ button{
     .faleConosco-gestao{
         padding: 3.0rem 6rem;
         width: 60vw;
-
     }
     #title{
         font-size: XX-large;
