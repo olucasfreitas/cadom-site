@@ -4,7 +4,7 @@
     justify-items: center;
     flex-direction: column;
     background-color: white;
-    margin-top: 2.0rem;
+    margin-top: 3.0rem;
     padding: 2.0rem;
     border: 0.4rem solid;
     border-radius: 1.0rem;
@@ -13,11 +13,35 @@
 }
 .textContainer-title{
     color: #000000;
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
 }
 .textContainer-text{
     color: #000000;
     line-height: 2.5rem;
-    text-align: justify;
-    font-size: medium;
+    text-align: center;
+    font-size: large;
+}
+
+@media (min-width: 1100px) {
+    #textContainer-gestao{
+        padding: 3.0rem;
+        padding-top: 3.0rem;
+        padding-bottom: 3.0rem;
+        height: 50vh;
+        width: 50vw;
+    }
+    #textContainer-title{
+        color: #000000;
+        padding: 2.0rem;
+        padding-bottom: 2.8rem;
+        font-size: xx-large;
+    }
+    #textContainer-text{
+        color: #000000;
+        line-height: 2.5rem;
+        text-align: center;
+        font-size: x-medium;
+    }
 }

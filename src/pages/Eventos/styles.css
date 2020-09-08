@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem
+}
+.title-eventos{
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 4rem;
+  color: white;
+}
+.eventos-text{
+  color: white;
+  line-height: 2.5rem;
+  font-size: large;
+  text-align: center;
+  margin-top: 1.0rem;
+}
+p{
+  color: black;
+}
+h1{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+}
+
+@media(min-width: 1100px){
+  #textContainer-gestao{
+    width: 78vw;
+  }
+}
