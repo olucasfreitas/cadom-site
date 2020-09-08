@@ -2,7 +2,7 @@ import React from 'react';
 import FaleConosco from '../../components/Fale-conosco/index.js';
 import Footer from '../../components/Footer/index';
 import Article from '../../components/Article/index';
-import ArticleResponsive from '../../components/Article-responsive/index';
+import BigArticleResponsive from '../../components/Big-article-responsive/index';
 import NavBar from '../../components/NavBar/index';
 import './styles.css';
 
@@ -22,7 +22,11 @@ export default function Home() {
     <div id="container" className="container">
       <h1 className="title-home"> Centro acadêmico de Direito Otávio Mendonça </h1>
       <p  className="text-home">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit cursus in arcu ultrices ut vulputate risus. Orci a commodo ornare diam ac eu, tristique nisl. Velit tempus nulla vitae in tristique. Augue dui proin massa senectus elementum diam.
+      A Gestão do CADOM tem como um dos seus princípios fundamentais, incentivar a participação em eventos,
+          estimular a autonomia e a responsabilidade dos alunos com a faculdade, e lutar em todos os âmbitos pela qualidade de graduação dos discentes.
+          Compactuado com a transparência e seriedade de gerir uma instituição que representa o corpo discente, o CADOM por meio deste site vem demonstrar
+          o que é discutido em cada reunião para que nenhum aluno do curso sinta-se por fora e/ou excluído. Logo, nossas Atas, Editais e o Estatuto são
+          disponibilizados para o acesso de todos que possuem o interesse em nossas atividades.
       </p>
 
       <Article
@@ -32,7 +36,7 @@ export default function Home() {
 
       <h1  className="title-home"> Nossos Projetos </h1>
 
-      <ArticleResponsive
+      <BigArticleResponsive
           link1=""
           title1="Trote Solidário"
           description1="Nosso trote solidário veio para inovar todas as dinâmicas ocorridas dentro

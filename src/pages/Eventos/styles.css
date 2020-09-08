@@ -9,7 +9,7 @@
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: white;
 }
 .eventos-text{
@@ -17,7 +17,6 @@
   line-height: 2.5rem;
   font-size: large;
   text-align: center;
-  margin-top: 1.0rem;
 }
 p{
   color: black;

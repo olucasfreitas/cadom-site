@@ -3,36 +3,26 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    padding: 2.0rem;
+    padding: 2rem;
 }
 .title-page-gestao{
     color: #FFFFFF;
     font-size: xx-large;
     font-weight: bold;
+    text-align: center;
 }
 .gestao-text{
     color: white;
     line-height: 2.5rem;
-    font-size: medium;
-    text-align: justify;
-    margin-top: 1.0rem;
+    font-size: large;
+    text-align: center;
+    padding: 1.0rem;
 }
 @media (min-width: 1100px){
-    #maincontainer-gestao{
-        padding: 4.0rem;
-    }
-    #title-page-gestao{
-        color: #FFFFFF;
-        font-size: xxx-large;
-        font-weight: bold;
-    }
-    #gestao-text{
-        color: white;
-        line-height: 2.5rem;
-        width: 95%;
-        font-size: large;
-        text-align: center;
-        margin-top: 1.0rem;
+    .gestao-text{
+      margin-right: 14rem;
+      margin-left: 14rem;
+      padding: 0rem;
     }
 }
 

@@ -26,15 +26,16 @@ export default function Eventos() {
       extensão universitária sobre múltiplas áreas do direito.</p>
       
         <ArticleResponsive
-        title1="FOTOS"
+        title1="Fotos"
         description1="Registro dos eventos, apresentações e palestras proporcionadas somente
-        pelo CADOM ou com parcerias."      
+        pelo CADOM ou com parcerias."   
+        link="https://drive.google.com/drive/folders/1PpE_FqnK7l099DDi6RnwR8hGUn9b0LO3?usp=sharing"   
         
-        title2="EVENTOS REALIZADOS"
+        title2="Eventos Realizados"
         description2="Todas as informações sobre os atuais e futuros eventos que teremos na
         instituição."
 
-        title3="REDES SOCIAIS"
+        title3="Redes Socias"
         />  
       <FaleConosco /> 
       <Footer />

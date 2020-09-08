@@ -3,8 +3,6 @@
     color: white;
     font-size: xx-large;
     margin-right: 3rem;
-    border-bottom: solid;
-    border-bottom-width: 0.5rem ;
   }
   #subtitle-nav{
     margin-top: 1rem;
@@ -17,12 +15,8 @@
     height: 5vh;
     background-color: white;
   }
-
-  @media (min-width: 1100px){
-      #navbar{
-        min-width: 1100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+  #navbar{
+    border-bottom: solid;
+    border-bottom-width: 0.4rem ;
+    color: white;
   }
