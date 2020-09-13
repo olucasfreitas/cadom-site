@@ -22,7 +22,7 @@ export default function Home() {
     <div id="container" className="container">
       <h1 className="title-home"> Centro acadêmico de Direito Otávio Mendonça </h1>
       <p  className="text-home">
-      A Gestão do CADOM tem como um dos seus princípios fundamentais, incentivar a participação em eventos,
+        A Gestão do CADOM tem como um dos seus princípios fundamentais, incentivar a participação em eventos,
           estimular a autonomia e a responsabilidade dos alunos com a faculdade, e lutar em todos os âmbitos pela qualidade de graduação dos discentes.
           Compactuado com a transparência e seriedade de gerir uma instituição que representa o corpo discente, o CADOM por meio deste site vem demonstrar
           o que é discutido em cada reunião para que nenhum aluno do curso sinta-se por fora e/ou excluído. Logo, nossas Atas, Editais e o Estatuto são
@@ -34,7 +34,7 @@ export default function Home() {
         description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit cursus in arcu ultrices ut vulputate risus. Orci a commodo ornare diam ac eu, tristique nisl. Velit tempus nulla vitae in tristique. Augue dui proin massa senectus elementum diam.">
       </Article>
 
-      <h1  className="title-home"> Nossos Projetos </h1>
+      <h1  className="title-home-projetos"> Nossos Projetos </h1>
 
       <BigArticleResponsive
           link1=""
@@ -82,8 +82,6 @@ export default function Home() {
         Direito, bem como o desenvolvimento cultural e político dos estudantes para
         tornar a experiência acadêmica única e inesquecível para todos">
       </Article>
-
-      <h1  className="title-home"> Membros do CADOM </h1>
 
       <FaleConosco />
       <Footer />

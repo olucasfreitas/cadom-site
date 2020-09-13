@@ -9,47 +9,38 @@
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
-  margin-top: 4rem;
   color: white;
+  padding: 1rem;
 }
-
 .publi-text{
     color: white;
     line-height: 2.5rem;
-    font-size: x-medium;
+    font-size: large;
     text-align: center;
     padding: 1.0rem;
-  
 }
-.container-pbs{
-  background-color:#ffffff;
-  border-radius: 0.5rem;
-  border: 0.3rem solid #BE814B; 
-  margin-bottom: 1.0rem;
-  width: 85vw;
-  padding: 1.5rem;
-}
-.title-text{
+.title-text-link{
   font-size: xx-large;
   font-weight: bold;
-  margin-top: 4rem;
-  color: white;
-  align-self: center;
-}
-.tile-text-link{
-  font-size: xx-large;
-  font-weight: bold;
-  margin-top: 4rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  padding: 1rem;
   color: white
 }
 .container-pbs-link{
-  width: 55vw;
+  width: 70vw;
   background-color:#ffffff;
   border-radius: 0.5rem;
-  border: 0.3rem solid #BE814B; 
-  margin-bottom: 1.0rem;
-  padding: 1.5rem;
+  border: 0.4rem solid #BE814B; 
+  margin-top: 1.0rem;
+  padding: 1.3rem;
 
+}
+.general-text{
+  color: #000000;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: large;
 }
 @media (min-width: 1100px){
   .title-text{
@@ -60,16 +51,9 @@
   .container-pbs{
     width: 80vw;
   }
-  .title-page-publi{
-    font-size: xx-large;
-
-  }
-  .publi-text{
-    font-size: large;
-    
-  }
-  .tile-text-link{
-    font-size: xx-large
+  .container-pbs-link{
+    width: 60vw;
+  
   }
 }
 

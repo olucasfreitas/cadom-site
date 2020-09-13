@@ -6,31 +6,28 @@
   padding: 2rem
 }
 .title-eventos{
+  color: #FFFFFF;
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
-  margin-top: 2rem;
-  color: white;
+  padding-bottom: 1.5rem;
 }
 .eventos-text{
   color: white;
   line-height: 2.5rem;
   font-size: large;
   text-align: center;
-}
-p{
-  color: black;
-}
-h1{
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 2rem;
-  color: black;
+  width: 85vw;
 }
 
 @media(min-width: 1100px){
   #textContainer-gestao{
+    width: 78vw;
+  }
+  .title-eventos{
+    padding: 1rem;
+  }
+  .eventos-text{
     width: 78vw;
   }
 }
