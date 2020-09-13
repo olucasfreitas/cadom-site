@@ -6,16 +6,18 @@
     margin: 1.0rem;
 
 }
-h1{
+.Art-title{
     color: #000000;
-    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
     margin-bottom: 3.0rem;
 }
-p{
+.Art-text{
     color: #000000;
     line-height: 2.5rem;
     text-align: center;
-    font-size: x-medium;
+    font-size: large;
 }
 .TextLink{
     display: flex;
@@ -38,10 +40,10 @@ p{
         width: 80vw;
         flex-direction: row;
     }
-    h1{
+    .Art-title{
         font-size: xx-large;
     }
-    p{
+    .Art-text{
         font-size: large;
     }
     .TextLink{

@@ -1,7 +1,6 @@
 import React from 'react';
 import FaleConosco from '../../components/Fale-conosco/index.js';
 import Footer from '../../components/Footer/index';
-import Article from '../../components/Article/index';
 import ArticleResponsive from '../../components/Article-responsive/index';
 import NavBar from '../../components/NavBar/index';
 import './styles.css';

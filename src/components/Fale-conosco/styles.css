@@ -31,6 +31,8 @@
 }
 #title{
     font-size: xx-large;
+    font-weight: bold;
+    padding: 1rem;
 }
 button{
     background-color: #BE814B;
@@ -45,9 +47,6 @@ button{
     .faleConosco-gestao{
         padding: 3.0rem 6rem;
         width: 60vw;
-    }
-    #title{
-        font-size: XX-large;
     }
     .inputPadrao-gestao{
         width:  40vw;

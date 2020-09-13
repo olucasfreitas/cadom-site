@@ -3,15 +3,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 1.0rem;
 
 }
-h1{
+.Bart-title{
     color: #000000;
     font-size: xx-large;
     margin-bottom: 3.0rem;
+    text-align: center;
+    font-weight: bold;
 }
-p{
+.Bart-text{
     color: #000000;
     line-height: 2.5rem;
     text-align: center;
@@ -24,7 +25,7 @@ p{
     height: 65vh;
     width: 80vw;
     background-color: white;
-    margin-top: 2.0rem;
+    margin-top: 3.0rem;
     padding: 3.0rem;
     border: 0.4rem solid;
     border-radius: 1.0rem;
@@ -36,16 +37,18 @@ p{
         padding: 2.0rem;
         width: 80vw;
         flex-direction: row;
+ 
     }
-    h1{
+    .Bart-title{
         font-size: xx-large;
     }
-    p{
+    .Bart-text{
         font-size: x-medium;
     }
     .BigTextLink{
         height: 75vh;
-        width: 20vw;
+        width: 20vw;       
+        margin-top: 0rem;
     }
 
 }

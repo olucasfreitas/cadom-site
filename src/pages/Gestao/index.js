@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import FaleConosco from '../../components/Fale-conosco/index.js';
 import Footer from '../../components/Footer/index';
-import Article from '../../components/Article/index';
 import NavBar from '../../components/NavBar/index';
 import ArticleResponsive from '../../components/Article-responsive/index';
 import './styles.css';
@@ -31,7 +30,7 @@ export default function Home() {
 
         <ArticleResponsive
           className="container"
-          
+
           title1="Ata/Balancetes"
           description1="Todos os registros ou resenhas dos fatos ou ocorrências verificados, e resoluções tomadas numa assembleia ou numa reunião de corpo deliberativo do CADOM."
           link1="https://drive.google.com/drive/folders/10dqcDaUE5mwNzQn5YYmy6jsbEtcXPeE9?usp=sharing"

@@ -6,33 +6,39 @@
   padding: 2rem;
 }
 .title-home{
-  font-size: xx-large;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 4rem;
-  color: white;
+    color: #FFFFFF;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1.5rem;
 }
 .text-home{
   color: white;
   line-height: 2.5rem;
   font-size: large;
   text-align: center;
-  margin-top: 1.0rem;
+  padding: 1.0rem;
+  width: 85vw;
 }
-p{
-  color: black;
-}
-h1{
-  font-size: 3rem;
+.title-home-projetos{
+  color: #FFFFFF;
+  font-size: xx-large;
   font-weight: bold;
   text-align: center;
-  margin-top: 2rem;
-  color: black;
+  padding-top: 1rem;
 }
-
 @media(min-width: 1100px){
   #textContainer-gestao{
     width: 78vw;
+  }
+  .title-home{
+    padding: 1rem;
+  }
+  .text-home{
+    width: 78vw;
+  }
+  .title-home-projetos{
+    padding: 1rem;
   }
 
 }
