@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import {Link} from 'react-router-dom';
  
 function ArticleResponsive(props) {
   return (
@@ -17,7 +16,8 @@ function ArticleResponsive(props) {
 
       <a href={props.link3}  style={{textDecoration:'none'}} className="TextLink">
         <h1 className="Art-title"> {props.title3} </h1>
-        <p className="Art-text"> {props.description3} </p>
+        <a className="Art-text-link" href={props.link4} > {props.description3} </a>
+        <a className="Art-text-link" href={props.link5} > {props.description4} </a>
       </a>
     </div>
   );

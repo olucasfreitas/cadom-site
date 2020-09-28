@@ -10,22 +10,20 @@
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
+    padding: 1rem;
 }
 .gestao-text{
     color: white;
     line-height: 2.5rem;
     font-size: large;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 @media (min-width: 1100px){
     .gestao-text{
       margin-right: 14rem;
       margin-left: 14rem;
       padding: 0rem;
-    }
-    .title-page-gestao{
-        padding: 1rem;
     }
 }
 

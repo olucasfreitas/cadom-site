@@ -8,7 +8,13 @@ function Article(props) {
                 {props.title}
             </h2>
             <p id="textContainer-text" className="textContainer-text">
-                {props.description}
+                {props.description1}
+            </p>
+            <p id="textContainer-text" className="textContainer-text">
+                {props.description2}
+            </p>
+            <p id="textContainer-text" className="textContainer-text">
+                {props.description3}
             </p>
         </div>
     );
