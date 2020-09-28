@@ -45,7 +45,6 @@ export default function Home() {
         />
 
         <FaleConosco />
-
         <Footer />
       </div>
     </>

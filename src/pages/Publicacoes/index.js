@@ -25,26 +25,24 @@ export default function Publicacoes() {
         </p>
 
         <ArticleReduced
-        title1 = "Publicações 1"
-        text1 ="Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem
+        title = "Publicação 1"
+        text ="Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem
         Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor"
-
-        title2 = "Publicações 2"
-        text2 ="Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem
-        Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor"
-
-        title3 = "Publicações 3"
-        text3 ="Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem
-        Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor"
-
         />
-
-        <h1 className="title-text-link"> Para ver mais textos de nossos alunos, acesse o link abaixo.</h1>
-        <div className="container-pbs-link">
-          <p className="general-text">
-            text Link
-       </p>
-        </div>
+        <ArticleReduced
+        title = "Publicação 2"
+        text ="Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem
+        Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor"
+        />
+        <ArticleReduced
+        title = "Publicação 3"
+        text ="Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum Lorem
+        Lorem ypsolum Lorem Lorem ypsolum Lorem Lorem ypsolum ypsolum Lor"
+        />
+        <ArticleReduced
+        title = "Para ver mais textos de nossos alunos, acesse o link abaixo."
+        text ="text Link"
+        />
 
         <FaleConosco />
         <Footer />

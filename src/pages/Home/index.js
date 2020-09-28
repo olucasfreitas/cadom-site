@@ -20,18 +20,24 @@ export default function Home() {
     NextPage4="Publicações"/>
 
     <div id="container" className="container">
-      <h1 className="title-home"> Centro acadêmico de Direito Otávio Mendonça </h1>
+      <h1 className="title-home"> Centro Acadêmico de Direito Otávio Mendonça </h1>
       <p  className="text-home">
-        A Gestão do CADOM tem como um dos seus princípios fundamentais, incentivar a participação em eventos,
-          estimular a autonomia e a responsabilidade dos alunos com a faculdade, e lutar em todos os âmbitos pela qualidade de graduação dos discentes.
-          Compactuado com a transparência e seriedade de gerir uma instituição que representa o corpo discente, o CADOM por meio deste site vem demonstrar
-          o que é discutido em cada reunião para que nenhum aluno do curso sinta-se por fora e/ou excluído. Logo, nossas Atas, Editais e o Estatuto são
-          disponibilizados para o acesso de todos que possuem o interesse em nossas atividades.
+      O CADOM é uma entidade formada por alunos a qual representa academicamente
+      todos os estudantes do curso de Direito do CESUPA.
       </p>
 
       <Article
         title="Quem Somos"
-        description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit cursus in arcu ultrices ut vulputate risus. Orci a commodo ornare diam ac eu, tristique nisl. Velit tempus nulla vitae in tristique. Augue dui proin massa senectus elementum diam.">
+        description1="O Centro Acadêmico de Direito Otávio Mendonça visa manter com os discentes,
+        um canal direto e permanente de contato, realizando discussões, debates, reuniões,
+        da maneira mais democrática e aberta possível, para que todos possam se sentir
+        representados e possuam a plena liberdade de participar ativamente."
+        description2="Ademais, o Centro Acadêmico é o responsável por fiscalizar as atividades da
+        instituição de maneira íntegra e transparente ao lutar contra as ações que interfiram
+        os direitos do corpo estudantil."
+        description3="Por fim, o CADOM observa as formas de aplicação dos recursos e a transparência
+        da Coordenação do curso, lutando sempre contra todo o tipo de desigualdade e
+        injustiça dentro da universidade sobre os mais diversos âmbitos.">
       </Article>
 
       <h1  className="title-home-projetos"> Nossos Projetos </h1>
@@ -67,15 +73,15 @@ export default function Home() {
 
       <Article
         title="Qual nosso papel perante os estudantes?"
-        description="O Centro Acadêmico de Direito Otávio e Mendonça (CADOM) é a entidade
+        description1="O Centro Acadêmico de Direito Otávio e Mendonça (CADOM) é a entidade
         representativa dos alunos a qual busca representá-los tanto dentro quanto fora
         universidade, especialmente frente à Coordenação, à Reitoria, aos outros Centros
         Acadêmicos e ante toda à comunidade estudantil do CESUPA. Portanto,
         representamos formalmente os interesses dos estudantes de direito da instituição,
         desde questões mais administrativas da Universidade até questões mais informais 
         como eventos culturais, assuntos comunitários, acadêmicos, políticos e
-        estruturais.
-        Nosso papel é buscar ser um espaço aberto ao debate, desconstrução e construção
+        estruturais."
+        description2="Nosso papel é buscar ser um espaço aberto ao debate, desconstrução e construção
         de novas formas de pensar e enxergar as realidades dos ambientes acadêmico.
         Diante disso, ao preservar tais valores o CADOM espera contar sempre com a
         ajuda dos alunos para construir e aperfeiçoar as condições de ensino do curso de
@@ -83,8 +89,8 @@ export default function Home() {
         tornar a experiência acadêmica única e inesquecível para todos">
       </Article>
 
-      <FaleConosco />
-      <Footer />
+      <FaleConosco/>
+      <Footer/>
     </div>
   </>
   )

@@ -14,7 +14,6 @@
 }
 .textContainer-title{
     color: #000000;
-
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
@@ -37,13 +36,13 @@
     }
     #textContainer-title{
         color: #000000;
-        padding: 2.0rem;
-        padding-bottom: 2.8rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
         font-size: xx-large;
     }
     #textContainer-text{
         margin-top: 0rem;
         text-align: center;
-        font-size: x-medium;
+        font-size: large;
     }
 }

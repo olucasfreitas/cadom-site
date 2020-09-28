@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    align-self: center;
     background-color: white;
     width: 80vw;
     margin-top: 4rem;
