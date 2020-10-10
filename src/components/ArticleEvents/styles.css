@@ -1,4 +1,4 @@
-.article-container{
+.articleEventsContainer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,20 +6,20 @@
     margin: 1.0rem;
 
 }
-.Art-title{
+.artTitle{
     color: #000000;
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
     margin-bottom: 3.0rem;
 }
-.Art-text{
+.artText{
     color: #000000;
     line-height: 2.5rem;
     text-align: center;
     font-size: large;
 }
-.TextLink{
+.textLink{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,43 +33,34 @@
     border-radius: 1.0rem;
     border-color: #BE814B;
 }
-.Art-text-link{
+.artTextLink{
     color: #000000;
     line-height: 2.5rem;
     text-align: center;
     font-size: large;
     padding: 0.3rem;
 }
-.Container-icons{
+.containerIcons{
     flex-direction: row;
     align-self: center;
     align-items: center;
     justify-content: space-between;
 }
-.Icon{
+.icon{
     padding: 3%;
 }
-
 @media (min-width: 1100px){
-    #article-container{
+    .articleEventsContainer{
         justify-content: space-between;
         padding: 2.0rem;
         width: 80vw;
         flex-direction: row;
     }
-    .Art-title{
-        font-size: xx-large;
-    }
-    .Art-text{
-        font-size: large;
-    }
-    .TextLink{
+    .textLink{
         height: 45vh;
         width: 20vw;
+        flex-direction: row;
         
-    }
-    .Art-text-link{
-        font-size: large;
     }
 
 }

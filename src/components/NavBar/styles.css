@@ -1,4 +1,4 @@
-#title-nav{
+#titleNav{
     margin-top: 1rem;
     color: white;
     font-size: xx-large;
@@ -8,7 +8,7 @@
     margin-bottom: 0.5rem;
     color: white;
   }
-  #subtitle-nav{
+  #subtitleNav{
     margin-top: 1rem;
     color: white;
     font-size: xx-large;
@@ -19,7 +19,7 @@
     height: 5vh;
     background-color: white;
   }
-  #navbar{
+  #navBar{
     border-bottom: solid;
     border-bottom-width: 0.4rem ;
     color: white;
