@@ -1,18 +1,18 @@
-.container{
+.containerEvents{
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  padding: 2rem
+  padding: 2rem;
 }
-.title-eventos{
+.titleEventos{
   color: #FFFFFF;
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
   padding: 1rem;
 }
-.eventos-text{
+.eventosText{
   color: white;
   line-height: 2.5rem;
   font-size: large;
@@ -20,13 +20,10 @@
   width: 85vw;
 }
 @media(min-width: 1100px){
-  #textContainer-gestao{
-    width: 78vw;
-  }
-  .title-eventos{
+  .titleEventos{
     padding: 1rem;
   }
-  .eventos-text{
+  .eventosText{
     width: 78vw;
   }
 }

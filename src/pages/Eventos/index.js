@@ -1,5 +1,5 @@
 import React from 'react';
-import FaleConosco from '../../components/Fale-conosco/index.js';
+import FaleConosco from '../../components/FaleConosco/index.js';
 import Footer from '../../components/Footer/index';
 import ArticleEvents from '../../components/ArticleEvents/index';
 import NavBar from '../../components/NavBar/index';
@@ -15,10 +15,11 @@ export default function Eventos() {
         NextPage2="FAQ"
         NextPage3="Gestao"
         NextPage4="Publicações" />
-      <div id="container" className="container">
 
-        <h1 id="title-eventos" className="title-eventos">Eventos</h1>
-        <p id="eventos-text" className="eventos-text">Diversos eventos são propostos pelo CADOM semanalmente, promovendo
+      <div className="containerEvents">
+
+        <h1 className="titleEventos">Eventos</h1>
+        <p className="eventosText">Diversos eventos são propostos pelo CADOM semanalmente, promovendo
         palestras, apresentações, atividades extracurriculares de ensino e pesquisa, e
       extensão universitária sobre múltiplas áreas do direito.</p>
 

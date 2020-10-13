@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import FaleConosco from '../../components/Fale-conosco/index.js';
+import FaleConosco from '../../components/FaleConosco/index.js';
 import Footer from '../../components/Footer/index';
 import NavBar from '../../components/NavBar/index';
-import ArticleResponsive from '../../components/Article-responsive/index';
+import ArticleResponsive from '../../components/ArticleResponsive/index';
 import './styles.css';
 
 export default function Home() {
@@ -17,10 +17,10 @@ export default function Home() {
         NextPage3="FAQ"
         NextPage4="Publicações" />
 
-      <div className="container-gestao">
-        <h1 className="title-page-gestao"> Gestão </h1>
+      <div className="containerGestao">
+        <h1 className="titlePageGestao"> Gestão </h1>
 
-        <p className="gestao-text">
+        <p className="gestaoText">
           A Gestão do CADOM tem como um dos seus princípios fundamentais, incentivar a participação em eventos,
           estimular a autonomia e a responsabilidade dos alunos com a faculdade, e lutar em todos os âmbitos pela qualidade de graduação dos discentes.
           Compactuado com a transparência e seriedade de gerir uma instituição que representa o corpo discente, o CADOM por meio deste site vem demonstrar

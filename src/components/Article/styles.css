@@ -1,4 +1,4 @@
-.textContainer-gestao{
+.containerArticle{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -12,13 +12,13 @@
     border-color: #BE814B;
 
 }
-.textContainer-title{
+.titleContainerArticle{
     color: #000000;
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
 }
-.textContainer-text{
+.textContainerArticle{
     color: #000000;
     line-height: 2.5rem;
     margin-top: 2.0rem;
@@ -27,20 +27,20 @@
 }
 
 @media (min-width: 1100px) {
-    #textContainer-gestao{
+    .containerArticle{
         padding: 3.0rem;
         padding-top: 3.0rem;
         padding-bottom: 3.0rem;
         height: 50vh;
-        width: 50vw;
+        width: 78vw;
     }
-    #textContainer-title{
+    .titleContainerArticle{
         color: #000000;
-        padding: 1rem;
+
         padding-bottom: 2rem;
         font-size: xx-large;
     }
-    #textContainer-text{
+    .textContainerArticle{
         margin-top: 0rem;
         text-align: center;
         font-size: large;

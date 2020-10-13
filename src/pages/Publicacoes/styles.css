@@ -1,31 +1,36 @@
-.container-publi{
+.containerPubli{
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   padding: 2rem;
 }
-.title-page-publi{
+.titlePagePubli{
   color: #FFFFFF;
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
   padding: 1rem;
 }
-.publi-text{
-    color: white;
-    line-height: 2.5rem;
-    font-size: large;
-    text-align: center;
-    padding: 1.0rem;
+.publiText{
+  color: white;
+  line-height: 2.5rem;
+  font-size: large;
+  text-align: center;
+  padding: 1.5rem;
 }
-.general-text{
+.generalText{
   color: #000000;
   line-height: 2.5rem;
   text-align: center;
   font-size: large;
 }
 @media (min-width: 1100px){
+  .publiText{
+    margin-right: 12rem;
+    margin-left: 12rem;
+    padding: 0rem;
+  }
 }
 
 

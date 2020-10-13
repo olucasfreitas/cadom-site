@@ -1,11 +1,11 @@
-.container-FAQ{
+.containerFAQ{
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   padding: 2rem;
 }
-.title-page-FAQ{
+.titlePageFAQ{
   color: #FFFFFF;
   font-size: xx-large;
   font-weight: bold;
