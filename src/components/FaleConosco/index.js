@@ -13,6 +13,7 @@ function FaleConosco() {
                 console.log(error.text);
             });
         e.target.reset();
+        alert("Seu e-mail foi enviado com sucesso.")
     }
     return (
 
